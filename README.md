@@ -1,4 +1,4 @@
-# 📚 Online Store Application
+# 📚 Online Store And Customers Application
 
 **Online Store Application** is a C++ program designed to simulate an online store system. It allows users to manage customers, products, and their relationships efficiently through interactive menus. The program provides hands-on learning for managing data structures and relational operations in real-world scenarios. 🚀
 
