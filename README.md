@@ -1,4 +1,4 @@
-# 📚 Online Store And Customers Application
+# 📚 Online Store Application
 
 **Online Store Application** is a C++ program designed to simulate an online store system. It allows users to manage customers, products, and their relationships efficiently through interactive menus. The program provides hands-on learning for managing data structures and relational operations in real-world scenarios. 🚀
 
@@ -7,28 +7,28 @@
 ## ✨ Key Features
 
 - **💼 Customer Management**  
-  Add, update, or delete customer data with ease.
+  Add, update, or delete customer data with ease using linked list operations.
 
 - **🛒 Product Management**  
-  Maintain a product catalog, including adding, deleting, and updating product details.
+  Manage product catalogs with support for insertion, deletion, and search operations.
 
 - **🔗 Relational Data Management**  
-  Link customers to their purchased products, view relationships, and explore connections between entities.
+  Establish relationships between users and products, enabling tracking of purchases and connections.
 
 - **📊 Analytical Insights**  
-  Generate and display reports on customer activity and product purchases.
+  Generate insights such as the number of products purchased by a user or users associated with a product.
 
 - **⚙️ Dynamic Data Structures**  
-  Uses linked lists for managing users, products, and their connections effectively.
+  Built with linked lists for managing users, products, and their connections effectively.
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **C++**: The core language for the application.
-- **Linked Lists**: For managing dynamic data relationships.
-- **Text Files**: To store data persistently across sessions.
-- **Terminal-based Interface**: For an intuitive and user-friendly interaction.
+- **C++**: The programming language for the application.
+- **Linked Lists**: The primary data structure for dynamic relationship management.
+- **Text Files**: For persistent data storage.
+- **Terminal-based Interface**: Simple and user-friendly for interaction.
 
 ---
 
@@ -43,7 +43,7 @@ cd Online-Store-And-Customers
 
 ### 2. Compile the Program
 
-Use a C++ compiler like GCC to build the application:
+Compile the program using a C++ compiler such as GCC:
 
 ```bash
 g++ -o OnlineStore main.cpp SourceFile.cpp
@@ -52,65 +52,72 @@ g++ -o OnlineStore main.cpp SourceFile.cpp
 
 ### 3. Run the Program
 
-Follow the on-screen prompts to navigate through the menu and perform various operations, such as managing users, products, and transactions.
+The application provides an interactive menu with various operations. Follow the prompts to manage users, products, and their relationships.
 
 ---
 
 ## 🔌 Program Functionalities
 
-### Interactive Menu Options
+### Menu Options
 
-1. Add new users or products.
-2. Link products to customers.
-3. Display users, products, or their relationships.
-4. Generate analytical reports on sales and user activity.
-5. Update or delete existing data.
-6. Explore specific relationships between users and products.
+1. Add Users or Products.  
+2. Display Users and Products.  
+3. Link Users with Products (simulate purchases).  
+4. View Relationships (purchases).  
+5. Update or Delete Users/Products.  
+6. Generate Reports: 
+   - Count products bought by a user.
+   - Identify users of a product.
 
 ---
 
 ## 📂 File Structure
 
-- **`main.cpp`**: Handles the program’s interactive menu and user input.
-- **`SourceFile.cpp`**: Contains the core functions for managing users, products, and relationships.
-- **`Header.h`**: Declares data structures, constants, and function prototypes.
-- **`User & Barang.txt`**: Stores data for persistence between sessions.
-- **`.gitignore`**: Ensures unnecessary files are excluded from version control.
+- **`main.cpp`**: Manages the program's menu and interaction.
+- **`SourceFile.cpp`**: Implements linked list operations and relational management.
+- **`Header.h`**: Declares data structures, constants, and functions.
+- **`User & Barang.txt`**: Stores persistent data for users and products.
+- **`.gitignore`**: Configuration for ignoring unnecessary files.
 
 ---
 
-## 📊 Example Data Usage
+## 📊 Example Code and Usage
 
-### Operations and Examples
+### Adding a User
 
-- **Add a User**: Insert user details like ID, name, and location into the linked list.
-  ```cpp
-  User user = {1, "John Doe", "New York"};
-  insertFirstUser(userList, createElmUser(user));
-  ```
-- **Add a Product**: Add product details such as ID, name, and type into the catalog.
-  ```cpp
-  Product product = {101, "Laptop", "Electronics"};
-  insertLastBarang(productList, createElmBarang(product));
-  ```
-- **Link User and Product**: Connect a user with a product to simulate a purchase.
-  ```cpp
-  connect(relasiList, findUser(userList, 1), findBarang(productList, 101), createElmRelasi());
-  ```
-- **View Relationships**: Display all purchases made by users.
-  ```cpp
-  showInfoRelation(userList, productList, relasiList);
-  ```
-- **Generate Reports**: Count and display users who bought a specific product.
-  ```cpp
-  int count = countJumlahParentFromSpecificChild(relasiList, 101);
-  cout << "Number of users who bought product 101: " << count << endl;
-  ```
+```cpp
+infotypeUser newUser = {1, "Alice", "Jakarta"};
+address_User user = createElmUser(newUser);
+insertFirstUser(userList, user);
+```
+
+### Adding a Product
+
+```cpp
+infotypeBarang newProduct = {101, "Laptop", "Electronics"};
+address_Barang product = createElmBarang(newProduct);
+insertLastBarang(productList, product);
+```
+
+### Linking a User with a Product
+
+```cpp
+address_User user = findUser(userList, 1);
+address_Barang product = findBarang(productList, 101);
+address_Relasi relation = createElmRelasi();
+connect(relationList, user, product, relation);
+```
+
+### Viewing Relationships
+
+```cpp
+showInfoRelation(userList, productList, relationList);
+```
 
 ---
 
 ## 📝 Conclusion
 
-**Online Store Application** simplifies understanding data structures and their practical applications. By integrating linked lists and relational operations, this project provides valuable experience in solving real-world problems programmatically. With an intuitive menu and robust functionalities, it’s an excellent learning tool for developers and students alike.
+The **Online Store Application** demonstrates the practical implementation of linked lists in managing dynamic data relationships. By incorporating relational management and analytical insights, it offers valuable experience for understanding data structures and their applications in solving real-world problems. This project is an excellent resource for learning and honing programming skills in C++.
 
 ---
