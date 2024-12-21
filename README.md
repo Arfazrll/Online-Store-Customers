@@ -163,11 +163,6 @@ Below is the initial menu displayed when the program starts:
 
 ---
 
-## 📜 **License**
-
-This project is licensed under the [MIT License](LICENSE).
-
----
 
 ## 📝 **Acknowledgments**
 
