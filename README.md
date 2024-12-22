@@ -61,16 +61,16 @@ Follow the interactive prompts to manage customers, products, and their relation
 
 ```plaintext
 Online-Store-And-Customers/
-├── .vscode/                     # VSCode configurations
-├── .gitignore                   # Excluded files for version control
-├── Header.h                     # Data structures and function prototypes
-├── LICENSE                      # License for the repository
-├── Online Store & Customers.cbp # Code::Blocks project file
-├── Online Store & Customers.depend # Project dependencies
-├── README.md                    # Project documentation
-├── SourceFile.cpp               # Implements core functionality
-├── User & Barang.txt            # Persistent user and product data
-├── main.cpp                     # Program entry point and menu logic
+├── .vscode/                           # VSCode configurations
+├── .gitignore                         # Excluded files for version control
+├── Header.h                           # Data structures and function prototypes
+├── LICENSE                            # License for the repository
+├── Online Store & Customers.cbp       # Code::Blocks project file
+├── Online Store & Customers.depend    # Project dependencies
+├── README.md                          # Project documentation
+├── SourceFile.cpp                     # Implements core functionality
+├── User & Barang.txt                  # Persistent user and product data
+├── main.cpp                           # Program entry point and menu logic
 ```
 
 ---
