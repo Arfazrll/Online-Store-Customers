@@ -7,21 +7,21 @@ Welcome to the **Online Store Application**! This C++ program is designed to sim
 ## 🌟 **Key Features**
 
 ### 💼 Customer Management
-- Add, update, or delete customer data using linked list operations.
+Add, update, or delete customer data using linked list operations.
 
 ### 🛒 Product Management
-- Manage product catalogs with seamless insertion, deletion, and search functionalities.
+Manage product catalogs with seamless insertion, deletion, and search functionalities.
 
 ### 🔗 Relational Data Management
-- Create dynamic relationships between users and products to simulate purchases and interactions.
+Create dynamic relationships between users and products to simulate purchases and interactions.
 
 ### 📊 Analytical Insights
-- Generate valuable insights such as:
+Generate valuable insights such as:
   - Number of products purchased by a user.
   - Users associated with a specific product.
 
 ### ⚙️ Dynamic Data Structures
-- Utilizes **multi-linked lists** for effective data management:
+Utilizes **multi-linked lists** for effective data management:
   - **Single Linked List** for users.
   - **Double Linked List** for products.
   - **Relation List** for connections between users and products.
@@ -142,13 +142,13 @@ Below is the initial menu displayed when the program starts:
 
 ```plaintext
 +-------------------------------------------+
-|                  MENU UTAMA                |
+|                MENU UTAMA                 |
 +-------------------------------------------+
-1. Tambah Data User
-2. Tambah Data Barang
-...
-20. Tampilkan Barang Yang Berhubungan Dengan User Tertentu
-21. Exit
+| 1. Tambah Data User                       |
+| 2. Tambah Data Barang                     |
+| ...                                       |
+| 20. Tampilkan Barang Tertentu             |
+| 21. Exit                                  |
 +-------------------------------------------+
 >> Pilih Nomor Menu:
 ```
